@@ -4,7 +4,6 @@ import org.springframework.stereotype.Controller;
 
 import com.hostmdy.di.service.GreetingService;
 
-@Controller
 public class GreetingController {
 	private final GreetingService greatingService;
 
