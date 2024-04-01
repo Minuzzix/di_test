@@ -4,13 +4,13 @@ import org.springframework.stereotype.Service;
 
 import com.hostmdy.di.service.GreetingService;
 
-@Service
-public class ConstructorGreetingService implements GreetingService {
+@Service("i18nGreetingBean")
+public class NormalGreetingService implements GreetingService {
 
 	@Override
 	public String greet() {
 		// TODO Auto-generated method stub
-		return "Hello Constructor Injection...";
+		return "Hello";
 	}
 
 }
